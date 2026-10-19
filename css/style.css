@@ -1,0 +1,746 @@
+/* FONT CONNECTION @FONT-FACE */
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Black.eot');
+    src: url('../assets/fonts/Lato-Black.eot') format('embedded-opentype'),
+        url('../assets/fonts/Lato-Black.woff2') format('woff2'),
+        url('../assets/fonts/Lato-Black.woff') format('woff'),
+        url('../assets/fonts/Lato-Black.ttf') format('truetype'),
+        url('../assets/fonts/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Bold.eot');
+    src: url('../assets/fonts/Lato-Bold.eot') format('embedded-opentype'),
+        url('../assets/fonts/Lato-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Lato-Bold.woff') format('woff'),
+        url('../assets/fonts/Lato-Bold.ttf') format('truetype'),
+        url('../assets/fonts/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Regular.eot');
+    src: url('../assets/fonts/Lato-Regular.eot') format('embedded-opentype'),
+        url('../assets/fonts/Lato-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Lato-Regular.woff') format('woff'),
+        url('../assets/fonts/Lato-Regular.ttf') format('truetype'),
+        url('../assets/fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS", sans-serif;
+    color: #323232;
+    background-color: #ffffff;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* CONTAINER */
+.nav_container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.top_nav {
+    background-color: #ffffff;
+}
+
+.top_links_right {
+    float: right;
+    list-style-type: none;
+}
+
+.top_links_right li {
+    float: left;
+}
+
+.top_links_right li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.top_links_right li a:hover,
+.top_links_right li a:active {
+    color: #2d3228;
+    font-weight: 700;
+}
+
+/* MAIN NAVIGATION */
+.main_nav {
+    padding: 15px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* LEFT SIDE: LOGO & MAIN MENU */
+.nav_brand_area {
+    float: left;
+    width: 85%;
+}
+
+.logo {
+    float: left;
+    margin-top: 5px;
+}
+
+.logo_img {
+    height: 32px;
+    display: block;
+}
+
+.main_menu_list {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.main_menu_list li {
+    float: left;
+}
+
+.main_menu_list li a {
+    display: block;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #757575;
+    text-decoration: none;
+}
+
+.main_menu_list li a:hover {
+    color: #2d3228;
+}
+
+/* RIGHT SIDE: ICONS */
+.nav_actions_area {
+    float: right;
+    width: 15%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.action_btn_link {
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.action_icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.action_icon:hover {
+    color: #2d3228;
+}
+
+/* HERO BANNER STYLING */
+.hero_banner {
+    width: 100%;
+    height: 474px;
+    background-image: url(https://cdn2.singteldigital.com/content/dam/singtel/business/sb/home/business-2000x480.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    height: 100%;
+}
+
+/* TEXT CONTENT */
+.banner_content {
+    float: left;
+    width: 60%;
+    margin-top: 150px;
+    color: #ffffff;
+}
+
+.banner_title {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.banner_subtitle {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    max-width: 500px;
+    opacity: 0.95;
+}
+
+/* PAGE SECTION STYLING */
+.page_section {
+    padding: 60px 0;
+    background-color: #f5f5f8;
+}
+
+.section_title {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 900;
+    color: #232328;
+    margin-bottom: 48px;
+}
+
+.card {
+    width: 100%;
+}
+
+.promo_card {
+    float: left;
+    width: 23.5%;
+    margin-right: 2%;
+    background-color: #ffffff;
+    border: 1px solid #dfdfe4;
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 440px;
+}
+
+.promo_card:last-child {
+    margin-right: 0;
+}
+
+.card_img_box {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card_body {
+    padding: 20px;
+}
+
+.card_heading {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 12px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.card_description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272727;
+    margin-bottom: 20px;
+    height: 63px;
+    overflow: hidden;
+}
+
+.card_link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0062f5;
+    text-decoration: underline;
+}
+
+.card_link:hover {
+    color: #0046b8;
+}
+
+/* SMB PROMOTIONS SECTION */
+.smb_section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfdfe4;
+}
+
+.smb_title {
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 900;
+    color: #232328;
+    margin-bottom: 70px;
+}
+
+.smb_card {
+    float: left;
+    width: 31.33%;  /* 31.33% * 3 = 94% */
+    margin-right: 2%;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfe4;
+    border-radius: 12px;
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.smb_card:nth:nth-child(3n+1) {
+    clear: left;
+}
+
+.card_img_box {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+}
+
+.smb_body {
+    padding: 24px;
+}
+
+.smb_heading {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 12px;
+}
+
+.smb_description {
+    font-size: 18px;
+    line-height: 22px;
+    color: #323232;
+    margin-bottom: 24px;
+    height: 66px;
+    overflow: hidden;
+}
+
+.smb_btn {
+    display: inline-block;
+    background-color: #232328;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 20px;
+}
+
+.smb_btn:hover {
+    background-color: #757575;
+}
+
+.enterprice_section {
+    border: none;
+}
+
+/* EXPLORE MORE SECTION */
+.explore_more_section {
+    padding: 10px 0 60px;
+    background-color: #ffffff;
+}
+
+.explore_title {
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 900;
+    color: #232328;
+    margin-bottom: 35px;
+}
+
+.explore {
+    width: 100%;
+}
+
+.explore_item {
+    float: left;
+    width: 31.333%; /* 31.333% * 3 = 94% */
+    margin-right: 3%;
+    margin-bottom: 24px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfe4;
+    border-radius: 8px;
+    position: relative;
+    min-height: 90px;
+}
+
+.explore_item:nth-child(3n+1) {
+    clear: left;
+}
+
+.explore_item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.explore_img_box {
+    float: left;
+    width: 18%;
+    height: 55px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.explore_img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.explore_content {
+    float: left;
+    width: 74%;
+    padding-left: 15px;
+}
+
+.explore_heading {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explore_description {
+    font-size: 14px;
+    line-height: 18px;
+    color: #757575;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explore_arrow {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #757575;
+    font-family: monospace;
+}
+
+.explore_arrow:hover {
+    color: #323232;
+}
+
+/* SMB HUB SECTION */
+.smb_hub_section {
+    padding: 60px 0;
+    background-color: #f5f5f8;
+}
+
+.hub_title {
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 900;
+    color: #232328;
+    margin-bottom: 35px;
+}
+
+.hub_cards {
+    width: 100%;
+}
+
+.hub_card {
+    float: left;
+    width: 31.33%;
+    margin-right: 3%;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfe4;
+    border-radius: 8px;
+    min-height: 200px;
+}
+
+.hub_card:last-child {
+    margin-right: 0;
+}
+
+.hub_icon_box {
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.hub_icon {
+    width: 100%;
+    height: 100%;
+}
+
+.hub_heading {
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 15px;
+}
+
+.hub_description {
+    clear: both;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232328;
+    margin-bottom: 25px;
+    min-height: 72px;
+}
+
+.hub_link {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0062f5;
+    text-decoration: underline;
+}
+
+.hub_link:hover {
+    color: #0046b8;
+}
+
+/* COMPONENT CONTAINER SECTION */
+.hero {
+    width: 100%;
+    height: 474px;
+    background-image: url(https://cdn2.singteldigital.com/content/dam/singtel/business/sb/home/business-insights-202505-dt.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    float: left;
+    width: 60%;
+    margin-top: 150px;
+    color: #000000;
+}
+
+.banner_link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 15px 32px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.banner_link:hover {
+    background-color: #757575;
+}
+
+/* TALK TO EXPERT & ABOUT SECTION */
+.expert_section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    border: 1px solid #dfdfe4;
+}
+
+.left_column {
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.expert_heading {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 20px;
+}
+
+.expert_text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #323232;
+    margin-bottom: 25px;
+}
+
+.sub_block {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.sub_heading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 6px;
+}
+
+.text_small {
+    font-size: 15px;
+    list-style: 22px;
+    color: #323232;
+    margin-bottom: 10px;
+}
+
+.right_column {
+    float: right;
+    width: 45%;
+}
+
+.about_heading {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #232328;
+    margin-bottom: 20px;
+}
+
+.about_text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #323232;
+    margin-bottom: 25px;
+}
+
+.about_link_block {
+    width: 100%;
+}
+
+.expert_blue_link, 
+.about_blue_link {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #0062f5;
+    text-decoration: underline;
+    margin-bottom: 12px;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+}
+
+.expert_blue_link:hover, 
+.about_blue_link:hover { 
+    color: #0046b8;
+}
+
+.chat_link { background-image: url('../assets/images/icon-chat.png'); }
+.email_link { background-image: url('../assets/images/icon-chat.png'); }
+.call_link { background-image: url('../assets/images/icon-chat.png'); }
+.info_link { background-image: url('../assets/images/icon-chat.png'); }
+.globe_link { background-image: url('../assets/images/icon-chat.png'); }
+
+/* Mobile Layout */
+@media screen and (max-width: 768px) {
+    .nav_container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+
+    .nav_brand_area {
+        float: left;
+        width: 88%;
+    }
+
+    .hero_banner {
+        height: auto;
+    }
+    .banner_title {
+        font-size: 38px;
+    }
+    .banner_subtitle {
+        font-size: 16px;
+    }
+    .section_title {
+        font-size: 30px;
+    }
+    .promo_card {
+        width: 37.5%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+    .card_img_box {
+        height: 130px;
+    }
+    .smb_title {
+        font-size: 30px;
+        line-height: 16px;
+        margin-bottom: 55px;
+    }
+    .smb_heading {
+        font-size: 20px;
+    }
+    .smb_description {
+        font-size: 16px;
+    }
+    .smb_btn {
+        font-size: 14px;
+    }
+    .hero {
+        height: 259px;
+    }
+    .content {
+        margin-top: 40px;
+    }
+    .banner_title {
+        font-size: 30px;
+    }
+    .banner_link {
+        font-size: 14px;
+    }
+    .expert_heading {
+        font-size: 28px;
+    }
+    .about_heading {
+        font-size: 28px;
+    }
+}
